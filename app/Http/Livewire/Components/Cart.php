@@ -41,7 +41,7 @@ class Cart extends Component
     /**
      * Get the current cart instance.
      */
-    public function getCartProperty(): CartManager
+    public function getCartProperty(): ?\Lunar\Models\Cart
     {
         return CartSession::current();
     }

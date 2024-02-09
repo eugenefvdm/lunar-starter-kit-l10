@@ -64,7 +64,7 @@ class ShippingOptions extends Component
     /**
      * Return whether we have a shipping address.
      */
-    public function getShippingAddressProperty(): void
+    public function getShippingAddressProperty()
     {
         return CartSession::getCart()->shippingAddress;
     }
