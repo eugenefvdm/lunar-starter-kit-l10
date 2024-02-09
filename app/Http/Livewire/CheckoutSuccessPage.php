@@ -3,14 +3,14 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
-use Livewire\ComponentConcerns\PerformsRedirects;
+//use Livewire\ComponentConcerns\PerformsRedirects;
 use Lunar\Facades\CartSession;
 use Lunar\Models\Cart;
 use Lunar\Models\Order;
 
 class CheckoutSuccessPage extends Component
 {
-    use PerformsRedirects;
+//    use PerformsRedirects;
 
     public ?Cart $cart;
 

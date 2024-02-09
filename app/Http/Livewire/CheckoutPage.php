@@ -4,7 +4,7 @@ namespace App\Http\Livewire;
 
 use Illuminate\Support\Collection;
 use Livewire\Component;
-use Livewire\ComponentConcerns\PerformsRedirects;
+//use Livewire\ComponentConcerns\PerformsRedirects;
 use Lunar\Facades\CartSession;
 use Lunar\Facades\Payments;
 use Lunar\Facades\ShippingManifest;
@@ -14,7 +14,7 @@ use Lunar\Models\Country;
 
 class CheckoutPage extends Component
 {
-    use PerformsRedirects;
+//    use PerformsRedirects;
 
     /**
      * The Cart instance.

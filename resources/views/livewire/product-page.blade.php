@@ -4,9 +4,9 @@
             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
                 @if ($this->image)
                     <div class="aspect-w-1 aspect-h-1">
-                        <img class="object-cover rounded-xl"
-                             src="{{ $this->image->getUrl('large') }}"
-                             alt="{{ $this->product->translateAttribute('name') }}" />
+{{--                        <img class="object-cover rounded-xl"--}}
+{{--                             src="{{ $this->image->getUrl('large') }}"--}}
+{{--                             alt="{{ $this->product->translateAttribute('name') }}" />--}}
                     </div>
                 @endif
 
