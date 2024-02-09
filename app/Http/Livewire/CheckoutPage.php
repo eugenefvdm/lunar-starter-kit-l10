@@ -186,7 +186,7 @@ class CheckoutPage extends Component
     /**
      * Return the shipping option.
      */
-    public function getShippingOptionProperty(): void
+    public function getShippingOptionProperty()
     {
         $shippingAddress = $this->cart->shippingAddress;
 
